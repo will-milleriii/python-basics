@@ -5,7 +5,9 @@ class Pet:
         self.animal = animal
 
 newPet = Pet("Bingo", "Chihuahua")
+newestPet = Pet("Gracie", "Goldendoodle")
 
-print(newPet)
 print(newPet.name)
 print(newPet.animal)
+print(newestPet.name)
+print(newestPet.animal)
