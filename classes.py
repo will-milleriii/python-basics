@@ -7,7 +7,12 @@ class Pet:
 newPet = Pet("Bingo", "Chihuahua")
 newestPet = Pet("Gracie", "Goldendoodle")
 
+newPet.name = "Flare"
+newPet.animal = "Cairn Terrier"
+
+del newestPet
+
 print(newPet.name)
 print(newPet.animal)
-print(newestPet.name)
-print(newestPet.animal)
+#print(newestPet.name)
+#print(newestPet.animal)
